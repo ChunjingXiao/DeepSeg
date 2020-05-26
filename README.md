@@ -10,7 +10,7 @@ First, policies of noise removal and threshold calculation are usually determine
 DeepSeg tries to adopt deep learning techniques to address these problems. DeepSeg is composed of the motion segmentation algorithm and the activity classification model. The descriptions about the code are shown as follows:
 
 # 06SegmentTrainExtract
-This is to extract training data for the motion segmentation algorithm. 
+This is used to extract training data for the motion segmentation algorithm. 
 
 # 08ActionSampleExtract
 This is used to extract training data for the activity classification model.
