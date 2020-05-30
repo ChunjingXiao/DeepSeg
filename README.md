@@ -1,3 +1,5 @@
+
+
 # DeepSeg
 
 DeepSeg aims at segmenting activities for WiFi Channel State Information (CSI)-based activity recognition.
@@ -9,17 +11,38 @@ First, policies of noise removal and threshold calculation are usually determine
 
 DeepSeg tries to adopt deep learning techniques to address these problems. DeepSeg is composed of the motion segmentation algorithm and the activity classification model. The descriptions about the codes are shown as follows:
 
-# 06SegmentTrainExtract
+
+# 02ExtractCsiAmplitude
+This is used to extract amplitudes from raw CSI *.dat files, and save as *.mat files 
+
+
+#03DataCsiAmplitudeCut
+This is used to cut the rows of data
+
+
+#04ManulSegmentActivity
+This is used to manually mark start and end points of activities.
+
+
+# 05ExtractSegmentTrainData
 This is used to extract training data for the motion segmentation algorithm. 
 
-# 08ActionSampleExtract
+
+# 06DiscretizeCsiForSegment
+This is used to discreize continuous CSI data into bins  for segmentation
+
+
+# 07ExtractActivitySample
 This is used to extract training data for the activity classification model.
 
-# 12CnnActionCode
+# 11CnnClassifyActivity
 This is for training the activity classification model.
 
-# 22CnnSegmentCode
-This is for training the motion segmentation algorithm.
+# 12CnnSegmentCode
+This is for training the state inference model.
 
 # 32FeedBackPython
 This is for the joint training of the motion segmentation algorithm and the activity classification model.
+
+
+
