@@ -15,12 +15,11 @@ DeepSeg tries to adopt deep learning techniques to address these problems. DeepS
 # 02ExtractCsiAmplitude
 This is used to extract amplitudes from raw CSI *.dat files, and save as *.mat files 
 
-
-#03DataCsiAmplitudeCut
+# 03DataCsiAmplitudeCut
 This is used to cut the rows of data
 
 
-#04ManulSegmentActivity
+# 04ManulSegmentActivity
 This is used to manually mark start and end points of activities.
 
 
