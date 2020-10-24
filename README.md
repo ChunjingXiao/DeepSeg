@@ -2,7 +2,7 @@
 
 # DeepSeg
 
-These are the code and data for the paper: [DeepSeg: Deep Learning-based Activity Segmentation Framework for Activity Recognition using WiFi](https://github.com/ChunjingXiao/DeepSeg/blob/master/DeepSeg_JIoT_Accepted.pdf), IEEE Internet of Things Journal, 2020. https://ieeexplore.ieee.org/document/9235578
+These are the code and data for the paper: [DeepSeg: Deep Learning-based Activity Segmentation Framework for Activity Recognition using WiFi](https://github.com/ChunjingXiao/DeepSeg/blob/master/DeepSeg_JIoT_Online.pdf), IEEE Internet of Things Journal, 2020. https://ieeexplore.ieee.org/document/9235578
 
 DeepSeg aims at segmenting activities for WiFi Channel State Information (CSI)-based activity recognition.
 
