@@ -11,12 +11,12 @@ Because fluctuation ranges of CSI amplitudes when activities occur are much larg
 However, there exist some weaknesses for these threshold-based segmentation methods.
 First, policies of noise removal and threshold calculation are usually determined based on subjective observations and experience, and some recommended policies might even be conflicted. Second, threshold-based segmentation methods may suffer from significant performance degradation when applying to the scenario including both fine-grained and coarse-grained activities, as shown in Figure 1. Third, motion segmentation and activity classification, which are closely interrelated, are usually treated as two separate states.
 
-![Figure 1. Framework of CsiGAN](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigDiffThresholdSample.jpg).
+![Figure](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigDiffThresholdSample.jpg).
 <p align="center">Figure 1. Performance of threshold-based activity segmentation methods for mixed activities. A small threshold is appropriate for the fine-grained activity but not for the coarse-grained one. And the reverse is true for a big threshold.</p>
 
 DeepSeg tries to adopt deep learning techniques to address these problems. DeepSeg is composed of the motion segmentation algorithm and the activity classification model. To avoid experience-dependent noise removal and threshold calculation and address the problem of performance decline for mixed activities, we propose a CNN-based activity segmentation algorithm to segment activities. To enhance overall performance, we introduce a feedback mechanism which can refine the activity segmentation algorithm based on the feedback computed using activity classification results.
 
-![Figure 1. Framework of CsiGAN](https://github.com/ChunjingXiao/DeepSeg/blob/master/ FigDeepSegFramework.jpg).
+![Figure](https://github.com/ChunjingXiao/DeepSeg/blob/master/FigDeepSegFramework.jpg)
 <p align="center">Figure 2. DeepSeg Framework. </p>
 
 
