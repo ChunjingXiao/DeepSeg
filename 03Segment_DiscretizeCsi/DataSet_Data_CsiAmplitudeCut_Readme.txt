@@ -1,2 +1,2 @@
 
-Copy the folder (Label_CsiAmplitudeCut) downloaded from Baidu Netdisk or Google Drive into here.
+Copy the folder (Data_CsiAmplitudeCut) downloaded from Baidu Netdisk or Google Drive into here.
