@@ -29,7 +29,7 @@ Google Drive: https://drive.google.com/drive/folders/1PLzV6ZWAauMQLf08NUkd5UeKrq
 
 Manually marked Labels for CSI amplitude data: Label_CsiAmplitudeCut  
 Baidu: https://pan.baidu.com/s/1nY5Og4NlLb7VH5oBQ-LH9w (Password: xnra)  
-Google: https://drive.google.com/drive/folders/1855zX-93QjmAt2wSeJk0rTJRiPaFMGBd
+Google: https://drive.google.com/drive/folders/1855zX-93QjmAt2wSeJk0rTJRiPaFMGBd  
 (1	boxing; 2	hand swing; 3	picking up; 4	hand raising; 5	running; 6	pushing; 7	squatting; 8	drawing O; 9	walking; 10	drawing X)
 
 Also the raw CSI data we collected can be downloaded via Baidu or Google: Data_RawCSIDat. Note that there is no need to download the raw CSI data for running our experiments. Downloading Data_CsiAmplitudeCut and Label_CsiAmplitudeCut is enough for our experiments.  
