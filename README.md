@@ -12,10 +12,10 @@ DeepSeg aims at segmenting activities for WiFi Channel State Information (CSI)-b
 &nbsp; &nbsp; author={Chunjing Xiao and Yue Lei and Yongsen Ma and Fan Zhou and Zhiguang Qin},  
 &nbsp; &nbsp; journal={IEEE Internet of Things Journal},  
 &nbsp; &nbsp;  title={DeepSeg: Deep Learning-based Activity Segmentation Framework for Activity Recognition using WiFi},  
-&nbsp; &nbsp;  year={2020},  
-&nbsp; &nbsp; volume={},  
-&nbsp; &nbsp; number={},  
-&nbsp; &nbsp; pages={1-1},  
+&nbsp; &nbsp;  year={2021},  
+&nbsp; &nbsp; volume={8},  
+&nbsp; &nbsp; number={7},  
+&nbsp; &nbsp; pages={5669-5681},  
 &nbsp; &nbsp; doi={10.1109/JIOT.2020.3033173}  
 }
 
